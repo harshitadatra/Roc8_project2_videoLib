@@ -1,8 +1,6 @@
 import React from 'react'
 import { Navbar } from '../Navbar/Navbar'
 import { Sidebar } from '../SideBar/Sidebar'
-import { FilterBar } from './FilterBar'
-// import { VideoListCard } from './VideoListCard';
 import {VideoList} from "../VideoListPage/VideoList";
 
 

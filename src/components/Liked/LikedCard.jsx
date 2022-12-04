@@ -1,6 +1,4 @@
 import React from 'react'
-import { useAuth } from '../../context/auth-context';
-import { useLike } from '../../context/like-context'
 
 export const LikedCard = ({item}) => {
   // const {likes,setLike} = useLike();
@@ -11,7 +9,11 @@ export const LikedCard = ({item}) => {
   return (
     <>
       <div className="like-container-card">
-        <img className="like-container-card-image" src={item.thumbnail} />
+        <img
+          alt="video7"
+          className="like-container-card-image"
+          src={item.thumbnail}
+        />
 
         <div className="video-name-details">
           <div className="video-name">{item.creator}</div>

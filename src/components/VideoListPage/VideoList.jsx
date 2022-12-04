@@ -1,9 +1,9 @@
 import React from 'react';
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useVideoList } from '../../context/video-list-context'
 import { VideoListCard } from './VideoListCard';
 import { useLike } from '../../context/like-context';
-import { useWatchLater, WatchLaterProvider } from '../../context/watch-later-context';
+import { useWatchLater } from '../../context/watch-later-context';
 
 export const VideoList = () => {
     
@@ -27,7 +27,7 @@ export const VideoList = () => {
     };
     const [filter, setFilter] = useState("ALL");
     const [filteredData, setFilteredData] = useState([]);
-    useEffect(() => {
+    useEffect((videoList) => {
       setFilteredData(
         videoList.filter((data) =>
           filter === "ALL"
@@ -35,7 +35,7 @@ export const VideoList = () => {
             : data.category.toLowerCase() === filter.toLowerCase()
         )
       );
-    }, [filter]);
+    },[filter]);
 
 
   return (

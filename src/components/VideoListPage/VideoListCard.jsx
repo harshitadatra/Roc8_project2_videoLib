@@ -14,9 +14,9 @@ export const VideoListCard = ({item,isLike,isWatchLater}) => {
     const navigate = useNavigate();
     const {user} = useAuth();
     // console.log("user video card", user);
-    const {likes,setLike} = useLike();
-    const {watchLater,setWatchLater} = useWatchLater();
-    const {history,setHistory} = useHistory();
+    const {setLike} = useLike();
+    const {setWatchLater} = useWatchLater();
+    const {setHistory} = useHistory();
 
 
 
@@ -114,6 +114,7 @@ export const VideoListCard = ({item,isLike,isWatchLater}) => {
     <>
       <div className="explore-card">
         <img
+          alt="video-image"
           onClick={historyHandler}
           className="card-image"
           src={item.thumbnail}
@@ -133,11 +134,14 @@ export const VideoListCard = ({item,isLike,isWatchLater}) => {
               ) : (
                 <i onClick={likeHandler} class="fa fa-duotone fa-thumbs-up"></i>
               )}
-              { isWatchLater ? 
-              (<i onClick={removeWatchHandler} class=" fa fa-solid like-icon fa-clock"></i>) :
-
-              (<i onClick={watchHandler} class=" fa fa-solid fa-clock"></i>)
-             }
+              {isWatchLater ? (
+                <i
+                  onClick={removeWatchHandler}
+                  class=" fa fa-solid like-icon fa-clock"
+                ></i>
+              ) : (
+                <i onClick={watchHandler} class=" fa fa-solid fa-clock"></i>
+              )}
             </div>
           </div>
         </div>

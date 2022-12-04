@@ -25,14 +25,12 @@ export const HomePage = () => {
               <div className="description-header"> Welcome to Music Jungle</div>
               <div> A place to watch your favourite Artists</div>
               <div>
-                
                 Independent music (often referred to as indie music or indie) is
                 music produced independently from commercial record labels or
                 their subsidiaries, a process that may include an autonomous,
                 do-it-yourself approach to recording and publishing.
               </div>
               <Link to="/explore">
-                
                 <button className="explore-button"> Explore </button>
               </Link>
             </div>
@@ -48,6 +46,7 @@ export const HomePage = () => {
             <div className="genre-details">
               <div className="card-container">
                 <img
+                  alt="video-image"
                   className="image-container"
                   src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
                 />
@@ -56,6 +55,7 @@ export const HomePage = () => {
               </div>
               <div className="card-container">
                 <img
+                  alt="video-image"
                   className="image-container"
                   src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
                 />
@@ -63,6 +63,7 @@ export const HomePage = () => {
               </div>
               <div className="card-container">
                 <img
+                  alt="video-image"
                   className="image-container"
                   src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
                 />
@@ -70,6 +71,7 @@ export const HomePage = () => {
               </div>
               <div className="card-container">
                 <img
+                  alt="video-image"
                   className="image-container"
                   src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
                 />
@@ -78,6 +80,7 @@ export const HomePage = () => {
               </div>
               <div className="card-container">
                 <img
+                  alt="video-image"
                   className="image-container"
                   src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
                 />
@@ -86,6 +89,7 @@ export const HomePage = () => {
               </div>
               <div className="card-container">
                 <img
+                  alt="video-image"
                   className="image-container"
                   src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
                 />

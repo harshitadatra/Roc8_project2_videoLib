@@ -8,7 +8,11 @@ import { useWatchLater } from '../../context/watch-later-context';
   return (
     <>
       <div className="like-container-card">
-        <img className="like-container-card-image" src={item.thumbnail} />
+        <img
+          alt="video-image"
+          className="like-container-card-image"
+          src={item.thumbnail}
+        />
 
         <div className="video-name-details">
           <div className="video-name">{item.title}</div>

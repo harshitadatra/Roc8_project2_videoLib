@@ -27,7 +27,7 @@ export const VideoList = () => {
     };
     const [filter, setFilter] = useState("ALL");
     const [filteredData, setFilteredData] = useState([]);
-    useEffect((videoList) => {
+    useEffect(() => {
       setFilteredData(
         videoList.filter((data) =>
           filter === "ALL"

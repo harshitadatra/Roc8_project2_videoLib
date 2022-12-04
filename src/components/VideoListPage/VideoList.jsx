@@ -27,6 +27,7 @@ export const VideoList = () => {
     };
     const [filter, setFilter] = useState("ALL");
     const [filteredData, setFilteredData] = useState([]);
+
     useEffect(() => {
       setFilteredData(
         videoList.filter((data) =>
@@ -35,6 +36,7 @@ export const VideoList = () => {
             : data.category.toLowerCase() === filter.toLowerCase()
         )
       );
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     },[filter]);
 
 

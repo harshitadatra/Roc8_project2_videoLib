@@ -10,7 +10,7 @@ export const LikedCard = ({item}) => {
     <>
       <div className="like-container-card">
         <img
-          alt="video-image"
+          alt="video7"
           className="like-container-card-image"
           src={item.thumbnail}
         />

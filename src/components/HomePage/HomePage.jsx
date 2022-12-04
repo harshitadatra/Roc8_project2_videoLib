@@ -46,7 +46,7 @@ export const HomePage = () => {
             <div className="genre-details">
               <div className="card-container">
                 <img
-                  alt="video-image"
+                  alt="video2"
                   className="image-container"
                   src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
                 />
@@ -55,7 +55,7 @@ export const HomePage = () => {
               </div>
               <div className="card-container">
                 <img
-                  alt="video-image"
+                  alt="video3"
                   className="image-container"
                   src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
                 />
@@ -63,7 +63,7 @@ export const HomePage = () => {
               </div>
               <div className="card-container">
                 <img
-                  alt="video-image"
+                  alt="video4"
                   className="image-container"
                   src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
                 />
@@ -71,7 +71,7 @@ export const HomePage = () => {
               </div>
               <div className="card-container">
                 <img
-                  alt="video-image"
+                  alt="video5"
                   className="image-container"
                   src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
                 />
@@ -80,7 +80,7 @@ export const HomePage = () => {
               </div>
               <div className="card-container">
                 <img
-                  alt="video-image"
+                  alt="video6"
                   className="image-container"
                   src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
                 />
@@ -89,7 +89,7 @@ export const HomePage = () => {
               </div>
               <div className="card-container">
                 <img
-                  alt="video-image"
+                  alt="video6"
                   className="image-container"
                   src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
                 />

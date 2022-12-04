@@ -114,7 +114,7 @@ export const VideoListCard = ({item,isLike,isWatchLater}) => {
     <>
       <div className="explore-card">
         <img
-          alt="video-image"
+          alt="video8"
           onClick={historyHandler}
           className="card-image"
           src={item.thumbnail}

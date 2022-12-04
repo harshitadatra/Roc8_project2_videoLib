@@ -6,7 +6,7 @@ export const HistoryCard = ({item}) => {
   return (
     <>
       <div className="like-container-card">
-        <img alt ="video-image" className="like-container-card-image" src={item.thumbnail} />
+        <img alt ="video1" className="like-container-card-image" src={item.thumbnail} />
 
         <div className="video-name-details">
           <div className="video-name">{item.title}</div>

@@ -57,7 +57,7 @@ export const HomePage = () => {
                 <img
                   alt="video3"
                   className="image-container"
-                  src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
+                  src="https://ik.imagekit.io/avavya/VideoLib/Category-pop_wBiHfSA_AV.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546098640"
                 />
                 <div>Pop</div>
               </div>
@@ -65,15 +65,15 @@ export const HomePage = () => {
                 <img
                   alt="video4"
                   className="image-container"
-                  src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
+                  src="https://ik.imagekit.io/avavya/VideoLib/category-background_pdthMKpMi.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546096643"
                 />
-                <div> Background</div>
+                <div> Romance</div>
               </div>
               <div className="card-container">
                 <img
                   alt="video5"
                   className="image-container"
-                  src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
+                  src="https://ik.imagekit.io/avavya/VideoLib/category-instrumental_3iCeFQRSW.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097745"
                 />
 
                 <div>Instrumental</div>
@@ -82,7 +82,7 @@ export const HomePage = () => {
                 <img
                   alt="video6"
                   className="image-container"
-                  src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
+                  src="https://ik.imagekit.io/avavya/VideoLib/category-hiphop_km7NJotML.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546096688"
                 />
 
                 <div>Hip-Hop </div>
@@ -91,7 +91,7 @@ export const HomePage = () => {
                 <img
                   alt="video6"
                   className="image-container"
-                  src="https://ik.imagekit.io/avavya/VideoLib/Category-indie2_sIX1POKgm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546097472"
+                  src="https://ik.imagekit.io/avavya/VideoLib/category-live__2ImeO3la.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648546098289"
                 />
 
                 <div>Live</div>

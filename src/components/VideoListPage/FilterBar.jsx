@@ -15,7 +15,7 @@ export const FilterBar = () => {
         <button className="genre-button" onClick={(e) => clickHandler(e)}>Indie</button>
         <button className="genre-button" >Indie</button>
         <button className="genre-button">Pop</button>
-        <button className="genre-button">Background</button>
+        <button className="genre-button">Romance</button>
         <button className="genre-button">Instrumental</button>
         <button className="genre-button">Hip-hop</button>
         <button className="genre-button">Live</button>

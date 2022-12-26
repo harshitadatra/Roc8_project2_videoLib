@@ -66,11 +66,11 @@ export const VideoList = () => {
           Pop
         </button>
         <button
-          value="Background"
+          value="Romance"
           className="genre-button"
           onClick={(e) => clickHandler(e)}
         >
-          Background
+          Romance
         </button>
         <button
           value="Instrumental"

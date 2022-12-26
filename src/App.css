@@ -394,3 +394,48 @@ color: #6fddaa;
   padding: 0.5rem 0.8rem;
   cursor: pointer;
 }
+.video-play-main-container
+{
+  display: flex;
+}
+.video-play-container-icons
+{
+  display: flex;
+  font-size: 1.5rem;
+  margin-top:1rem;
+  gap:2rem;
+ 
+}
+.icon-name
+{
+  font-size: 1rem;
+}
+.icon-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  cursor: pointer;
+}
+.video-category
+{
+  color: #5bb65b;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.video-name
+{
+  margin-top: 0.6rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.artist-name
+{
+  margin-top: 0.8rem;
+  padding: 0.4rem 0.7rem;
+  background-color:#5bb65b ;
+  color: white;
+  border-radius: 0.5rem;
+  width: fit-content;
+}

@@ -30,48 +30,48 @@ export const VideoPlay = ({item}) => {
       console.log(error.response.data);
     }
   };
-  const removeLikeHandler = async () => {
-    try {
-      const removeLikeResponse = await axios({
-        method: "delete",
-        url: `/api/user/likes/${item._id}`,
-        headers: { authorization: user.token },
-        data: { video: item },
-      });
-      console.log(removeLikeResponse.data.likes);
-      setLike({ Like: removeLikeResponse.data.likes });
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  // const removeLikeHandler = async () => {
+  //   try {
+  //     const removeLikeResponse = await axios({
+  //       method: "delete",
+  //       url: `/api/user/likes/${item._id}`,
+  //       headers: { authorization: user.token },
+  //       data: { video: item },
+  //     });
+  //     console.log(removeLikeResponse.data.likes);
+  //     setLike({ Like: removeLikeResponse.data.likes });
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
 
-  const watchHandler = async () => {
-    try {
-      const watchLaterData = await axios({
-        method: "post",
-        url: `/api/user/watchlater`,
-        headers: { authorization: user.token },
-        data: { video: item },
-      });
-      console.log(watchLaterData);
-      setWatchLater({ watchLater: watchLaterData.data.watchlater });
-    } catch (error) {
-      console.log(error.response.data);
-    }
-  };
-  const removeWatchHandler = async () => {
-    try {
-      const removeWatchResponse = await axios({
-        method: "delete",
-        url: `/api/user/watchlater/${item._id}`,
-        headers: { authorization: user.token },
-        data: { video: item },
-      });
-      setWatchLater({ watchLater: removeWatchResponse.data.watchlater });
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  // const watchHandler = async () => {
+  //   try {
+  //     const watchLaterData = await axios({
+  //       method: "post",
+  //       url: `/api/user/watchlater`,
+  //       headers: { authorization: user.token },
+  //       data: { video: item },
+  //     });
+  //     console.log(watchLaterData);
+  //     setWatchLater({ watchLater: watchLaterData.data.watchlater });
+  //   } catch (error) {
+  //     console.log(error.response.data);
+  //   }
+  // };
+  // const removeWatchHandler = async () => {
+  //   try {
+  //     const removeWatchResponse = await axios({
+  //       method: "delete",
+  //       url: `/api/user/watchlater/${item._id}`,
+  //       headers: { authorization: user.token },
+  //       data: { video: item },
+  //     });
+  //     setWatchLater({ watchLater: removeWatchResponse.data.watchlater });
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
   return (
     <div>
       <Navbar />

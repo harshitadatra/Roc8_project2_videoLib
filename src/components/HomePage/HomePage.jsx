@@ -23,13 +23,8 @@ export const HomePage = () => {
             </div>
             <div className="description-container">
               <div className="description-header"> Welcome to Music Jungle</div>
-              <div> A place to watch your favourite Artists</div>
-              <div>
-                Independent music (often referred to as indie music or indie) is
-                music produced independently from commercial record labels or
-                their subsidiaries, a process that may include an autonomous,
-                do-it-yourself approach to recording and publishing.
-              </div>
+              <div className='description-subheader'> A place to watch your favourite Artists</div>
+             
               <Link to="/explore">
                 <button className="explore-button"> Explore </button>
               </Link>

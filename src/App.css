@@ -159,9 +159,17 @@ a {
   color: white;
   background-color: #5bb68b;
   margin-bottom: 0.5rem;
-  padding: 0.8rem 1.5rem;
+  padding: 1rem;
+  width: 100%;
   border-radius: 0.5rem;
   cursor:pointer
+  
+}
+.guest-credentials
+{
+  cursor:pointer;
+  margin-bottom: 0.9rem;
+  color: gray;
 }
 
 .sign-in-button {

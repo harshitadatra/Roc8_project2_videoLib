@@ -16,14 +16,16 @@ export const Login = () => {
         }))
 
     }
-    const loginHandler = async () => 
+    const loginHandler = async (isTestUser) => 
     {
-        console.log("login");
-        console.log(userDetail);
+       
         try{
-            const loginData = await axios.post(
-                "/api/auth/login",userDetail
-            ) 
+           const loginData = await axios.post(
+             "/api/auth/login",
+             isTestUser
+               ? { email: "abc@gmail.com", password: "abc123" }
+               : userDetail
+           );
             console.log(loginData);
              setUser({
                users: loginData.data.foundUser,
@@ -66,12 +68,14 @@ export const Login = () => {
         />
 
         <div className="buttons-container">
-          <button className="login-button" onClick={loginHandler}>
+          <div onClick={() => loginHandler(true)} class="guest-credentials"> login with guest credential?</div>
+          <button className="login-button" onClick={()=> loginHandler(false)}>
             Login
           </button>
           <Link to="/signup" >
             <button className="sign-up-button">New User?Sign-up</button>
           </Link>
+          
         </div>
       </div>
     </div>
